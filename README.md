@@ -1,1 +1,1 @@
-ghttps://Pashka109r.github.io/rsschool-cv/
+https://Pashka109r.github.io/rsschool-cv/
