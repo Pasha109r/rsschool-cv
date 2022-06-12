@@ -12,44 +12,47 @@ a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
- /* zero style */
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
+/* zero style */
 
 .body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .header 
 
-.container {
+.container  {
     max-width: 1440px;
     margin: 0 auto;
-} 
-
-.nav-list 
-
-.nav-contacts 
-
-.nav-link 
-
-.nav-summary 
-
-.nav-skills 
-
-.nav-code 
-
-
-.nav-education 
-
-.nav-english 
-
-.main 
-
-.section 
-
-.my-profile 
-
-.section-title 
-
-.footer 
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+}
+.my-foto{
+    max-width: 10% ;
+}
+.section-profile{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-git{
+    max-width: 30%;
+    
+}
+.logo-rsschol{
+    
+    max-height: 30%;
+}
