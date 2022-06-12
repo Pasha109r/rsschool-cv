@@ -1,1 +1,1 @@
-https://github.com/Pasha109r/rsschool-cv.git
+https://pasha109r.github.io/rsschool-cv/
