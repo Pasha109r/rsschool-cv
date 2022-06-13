@@ -17,42 +17,150 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
 
 .body {
     min-height: 100vh;
+}
+.size-page{
+    border: 3px solid black;
+    margin: 50px 150px 50px 150px;
+    padding: 50px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(120, 122, 104) 0%,rgb(165, 212, 111) 30%,rgb(55, 119, 108) 70%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.header 
+.header  {
+    border: 2px solid green;
+    background: linear-gradient(135deg, rgb(10, 165, 226) 0%,rgba(88, 221, 148, 0.26) 100%);
+    border-radius: 50%;
+    
+}
 
-.container  {
+
+.container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 30px;
 }
-.nav-list {
+
+.nav 
+
+.nav-list  {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
+    
 }
-.nav-link{
+
+.nav-item 
+
+.nav-link {
     padding: 0 20px;
     line-height: 50px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 2px 1px 3px rgb(47, 47, 211);
 }
-.my-foto{
-    max-width: 10% ;
+
+.main{
+    border: 2px solid red;
 }
+
 .section-profile{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.my-profile 
+
+.my-foto {
+    max-width: 200px ;
+    max-height: 200px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    
 }
-.footer-container{
+.profile-container{
+    margin-left: 30px;
+}
+.my-profile-content{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgba(168, 36, 36, 0.849);
+    background-color:aqua;
+}
+.my-profile-title{
+    font-family: 'Kdam Thmor Pro';
+    font-size: 25px;
+}
+.h1-title{
+    background-color: aqua;
+    
+}
+.section-title {
+    font-family: 'Kdam Thmor Pro';
+    background-color: aqua;
+    text-align: center;
+    margin-top: 15px;
+    min-height: 20px;
+    border-radius: 100%;
+    max-width: 250px;
+    
+}
+.my-profile-content
+.section {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.skills-p::before{
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 5px 0px 15px;
+}
+
+.section-contacts:before{
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 5px 0px 15px; 
+}
+.item-link-bip{
+    color: rgb(232, 15, 240);
+
+}
+.item-link-colleg{
+    color: rgb(232, 15, 240);
+    
+}
+
+.footer {
+    max-height: 100px;
+}
+
+.footer-container {
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
-.logo-git{
-    max-width: 30%;
-    
+.logo-git {
+    max-width: 100px;
+    margin: 10px;
 }
-.logo-rsschol{
-    
-    max-height: 30%;
+
+.year {
+    font-size: 20px;
 }
+
+.logo-rsschol {
+    max-width: 100px;
+    margin: 5px;
+};
