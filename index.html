@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html lang="ru"></html>
-
+<html lang="en">
 <head>
-    <title>rsschool-cv-html</title>
-    <meta http-equiv="Content-type" content="text/html;charset= utf-8"./>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
+
 <body>
-    <img class="picture" src="https://eskipaper.com/images/wallpapers-37.jpg" alt="">
+    <div class="size-page">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts"class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#about-me"class="nav-link">About ME</a></li>
+                        <li class="nav-item"><a href="#skills"class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code"class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#education"class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#english"class="nav-link">English</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="section-profile" id="profile">
+                    <div class="my-profile">
+                        <img class="my-foto" src="./img/IMG_20200619_183812.jpg" alt="my avatar">
+                    </div>
+                    <div class="profile-container">
+                        <div class="my-profile-title">
+                            <h1 class="h1-title">Filipovich Pavel</h1>
+                        </div>
+                        <div class="my-profile-content">Beginning Front-End Developer</div>
+                    </div>    
+                </section>
+            </div>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li class=" section-contacts">Viber: +48792235622</li>
+                    <li  class=" section-contacts">Email: filipave@gmail.com</li>
+                    <li class=" section-contacts">Github: Pasha109r</li>
+                </ul>
+            </section>
+
+            <section class="section" id="about-me">
+                <h2 class="section-title">About-Me</h2>
+                <p> Hello !! I am a beginner developer, I like to learn something new and constantly improve.
+                    <br> I like to create something new and see the result of my work, to be part of a team and to be useful.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li class="skills-p">HTML</li>
+                    <li class="skills-p">JS</li>
+                    <li class="skills-p">CSS</li>
+                    <li class="skills-p">SASS</li>
+                    <li class="skills-p">GITHUB</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <p>let maas = [];
+                    <br>for (let i = 0; i < 55; i++) {
+                        <br>[i] = getRandom(80);
+                        <br>maas.push(getRandom);
+                    }
+                    <br>console.log(maas);
+                    
+                    <br>let result = maas.filter(function (even) {
+                        <br>return even % 2 == 0;
+                    })
+                    <br>console.log(result);
+                    <br>let s = result.reduce((sum, current) => sum + current);
+                    <br>console.log(s);
+                    
+                    <br>function getRandom(_max) {
+                        <br>return Math.floor(Math.random() * _max);
+                    }</p>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li class="ed-link"><h2><a class="item-link-colleg" target="_blank" href="http://mgke.minsk.edu.by/%C2%A0ru/main.aspx">Сollege of electronics</a></h2></li>
+                    <li class="ed-link"><h2><a class="item-link-bip" target="_blank" href="http://www.bip-ip.by/eng/">BIP — UNIVERSITY OF LAW</a></h2></li>
+                </ul>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>Approximately my English level is A2</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <a href="https://github.com/Pasha109r" target="_blank"><img class="logo-git" src="https://go.imgsmail.ru/imgpreview?key=5076e3319644deec&mb=imgdb_preview_exp"></a>
+                <p class="year">2022</p>
+                <a href="https://rs.school/" target="_blank"><img class="logo-rsschol" src="https://events.devby.io/ckeditor_assets/pictures/38490/content_logo-rs-school-devby.jpg" ></a>
+            </div>
+        </footer>
+    </div>
 </body>
+</html>
