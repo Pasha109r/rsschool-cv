@@ -43,17 +43,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
     padding: 30px;
 }
 
-.nav 
-
 .nav-list  {
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-
-.nav-item 
-
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
@@ -97,6 +92,29 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
 .h1-title{
     background-color: aqua;
     
+}
+.section-contacts{
+    font-size: 18px;
+}
+.section-abaut-me{
+    margin-left: 10%;
+    font-size: 18px;
+}
+.section-skills{
+    margin-left: 20%;
+    font-size: 18px;
+}
+.section-code{
+    margin-left: 30%;
+    font-size: 18px;
+}
+.section-education{
+    margin-left: 40%;
+    font-size: 18px;
+}
+.english{
+    margin-left: 50%;
+    font-size: 18px;
 }
 .section-title {
     font-family: 'Kdam Thmor Pro';
