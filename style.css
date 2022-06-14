@@ -18,8 +18,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
 .body {
     min-height: 100vh;
 }
+
 .size-page{
-    border: 3px solid black;
+    box-shadow: 0 0  4px 5px greenyellow;
+    border-radius: 10%;
     margin: 50px 150px 50px 150px;
     padding: 50px;
     min-height: 100vh;
@@ -29,7 +31,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
     justify-content: space-between;
 }
 .header  {
-    border: 2px solid green;
     background: linear-gradient(135deg, rgb(10, 165, 226) 0%,rgba(88, 221, 148, 0.26) 100%);
     border-radius: 50%;
     
@@ -61,9 +62,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
     box-shadow: 2px 1px 3px rgb(47, 47, 211);
 }
 
-.main{
-    border: 2px solid red;
-}
+.main
 
 .section-profile{
     display: flex;
@@ -135,10 +134,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit}
 }
 .item-link-bip{
     color: rgb(232, 15, 240);
+    text-shadow: 2px 2px 2px white;
+    text-decoration: underline;
 
 }
 .item-link-colleg{
     color: rgb(232, 15, 240);
+    text-shadow: 2px 2px 2px white;
+    text-decoration: underline;
     
 }
 
