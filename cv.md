@@ -10,10 +10,9 @@
   - **Phone:**+48792235622 (Viber,Whats app)
 
   - **Location:** Belarus, Minsk
-  ## **About Me:**
+## **About Me:**
 
-
-  My hobbies are football, motorcycles, traveling and I also started to study code and I really like it
+ My hobbies are football, motorcycles, traveling and I also started to study code and I really like it
 
 
 ## **Education:**
