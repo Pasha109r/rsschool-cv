@@ -15,3 +15,12 @@
 - Git
 
 ## __About Me__
+
+I really want to change my profession to a more interesting one, in which there is no limit to the development and improvement of my professional and creative skills.
+Which will allow you to constantly develop, learn new things, communicate with interesting people.
+
+## Education
+- College of electronics 
+- Institute of jurisprudence
+
+	
