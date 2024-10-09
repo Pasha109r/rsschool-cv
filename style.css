@@ -1,3 +1,13 @@
+body{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+h1{
+	text-align: center;
+}
+
 .myFoto{
 	width: 100%;
 	
@@ -8,8 +18,29 @@
 }
 .info{
 	margin-left: 3%;
+	display: grid;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 200px 200px;
+	grid-template-areas: 
+			'skills education'
+			'contact aboutMe';
+}
+.grid-contact{
+	grid-area: contact;
+}
+.grid-skils{
+	grid-area: skills;
+}
+.grid-aboutMe{
+	grid-area: aboutMe;
+}
+.grid-education{
+	grid-area: education;
 }
 .wraper{
 	display:flex;
 	
+}
+.h1{
+	justify-items: center;
 }
